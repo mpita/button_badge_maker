@@ -53,7 +53,7 @@ class Admin(admin.ModelAdmin):
         "diameter"
     )
 
-    actions = ["download"]
+    # actions = ["download"]
 
     def download(self, request, queryset):
         height_pixel_max = 1054
